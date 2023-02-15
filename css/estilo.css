@@ -1,0 +1,121 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-principal {
+    margin: auto;
+    padding: 10px;
+    width: 1200px;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: left;
+    height: 100%;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.texto-secao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    background-image: url('../img/bg.jpg');
+    height: 20em;
+    background-repeat: no-repeat;
+    border: solid 1px red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.servico {
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+}
+
+.serv {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+.serv img {
+    max-width: 100%;
+    border-radius: 15px;
+    border: solid 1px red;
+}
+
+.depoimento {
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+}
+
+.dep {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+.dep img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border: solid 1px red;
+}
+
+.dep p {
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+#footer {
+
+    background: #c16700;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    border: solid 1px red;
+}
+
+
+#footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+
+#footer .copyright {
+    margin: 0 0 5px 0;
+}
+
+#footer .credits {
+    font-size: 13px;
+}
